@@ -1,45 +1,59 @@
+// IMAGEN BACK
+.img-bk{
+    background-image: url(../multimedia/1675859564_912728_1675859837_gigante_normal.jpg);
+    height: 350px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// TEXTO
 .text-tour {
     text-align: center;
     color: $color-text;
     
-    img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-
     h1 {
-        font-size: 30px;
+        font-size: 25px;
         font-family: $text;
         padding-top: 10px;
 
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 20px;
         font-family: $text;
         padding-bottom: 10px;
     }
 }
-
-.eeuu {
-    @include flex-index(column, center, center, 10px);
-
+.div-h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     h3 {
         color: $color-text;
-        font-size: 25px;
+        font-size: 20px;
         font-family: $text;
         text-align: center;
-        background-color: black;
+        background-color: #000000;
         border-radius: 50px;
-        width: 220px;
+        width: 200px;
     }
+}
+
+// LUGAR DE COMPRA
+.eeuu {
+    @include flex-index(column, center, center, 10px);
+    padding: 10px;
 
     h4 {
         color: $color-text;
-        font-size: 18px;
+        font-size: 16px;
         font-family: $text;
         text-align: center;
+        width: 300px;
     }
 
     a {
@@ -50,13 +64,13 @@
         padding: 5px;
         margin: 5px;
         color: $color-text;
-        background-color: black;
+        background-color: #000000;
         font-family: $text;
     }
 
     a:hover {
-        background-color: transparent;
-        border: 2px solid #ff00aa;
+        background-color: rgba(17, 2, 2, 0.404);
+        border: 2px solid #eb90db;
         color: $color-text;
     }
 }

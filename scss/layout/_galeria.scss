@@ -1,3 +1,4 @@
+// TITULOS
 .h1-galeria {
     text-align: center;
     color: $color-text;
@@ -15,6 +16,7 @@
     font-family: $text;
 }
 
+// IMAGENES
 .grilla {
     display: grid;
     grid-template-columns: repeat(1, 300px);
@@ -68,6 +70,7 @@
     @include flex-index(row, center, center, 10px);
 }
 
+// VIDEOS TOP REPRODUCCIONES
 .grilla2 {
     @include flex-index(column, center, center, 10px);
     padding: 10px;
@@ -87,6 +90,7 @@
     }
 }
 
+// VIDEOS SINGELS
 .grilla3 {
     @include flex-index(column, center, center, 10px);
     padding: 10px;

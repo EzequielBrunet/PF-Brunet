@@ -1,5 +1,4 @@
 // MIXIN
-
 @mixin flex-index($direction, $justify, $align, $gap){
     display: flex;
     flex-direction: $direction;
